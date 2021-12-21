@@ -22,6 +22,8 @@ function base64(str) {
 //     When the string passed is a cipher, return the original string to the cipher passed atob(string) else return a cipher.
     return base64(string) ? console.log(atob(string)) : console.log(btoa(string));
   }
-  
-  generateCipherStr("Hello Worl");
+ 
+
 //   Testing generateCipherStr
+  generateCipherStr("Hello World");
+
