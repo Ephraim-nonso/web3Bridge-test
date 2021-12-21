@@ -14,6 +14,7 @@ function base64(str) {
 //     Catch the error by returning a false
     return false; 
   }
+}
   
 //   This function aids in the generation of ciphers. This also, when returned the ciphers, returns the original string to that cipher.
   function generateCipherStr (string) {
